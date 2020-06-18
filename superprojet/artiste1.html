@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mon Musee</title>
+    <!-- GOOGLE FONTS : -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,500i,600,700&display=swap" rel="stylesheet">
+    <!-- CSS : -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ICONS : -->
+    <link rel="icon" href="assets/photos/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/030bc59c7c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="covid-banner">
+      <p> ALERTE INFO COVID-19 &nbsp<i class="fas fa-viruses fa-2x"></i><br>
+      RÉOUVERTURE DES MUSÉES DÉPARTEMENTAUX À PARTIR DU 18 MAI (voir infos pratiques de chaque musée).<br>
+      Et toujours LA CULTURE S'INVITE CHEZ VOUS... sur musees.isere et culture.isere,<br>
+      pour continuer à vous cultiver autrement ! INFOS CORONAVIRUS sur www.isere.fr</p>
+      <button type="button" class="acceptbutton">C'est noté !</button>
+    </div>
+    <header>
+      <h1>Musée Alix Pelletier</h1>
+      <nav>
+        <ul class="top-ul">
+          <li><a href="index.html">Le musée et le site</a></li>
+          <li><a href="artiste1.html">Expositions & agenda</a></li>
+          <li><a href="#">Votre visite</a></li>
+          <li><a href="#">Les collections permanentes</a></li>
+          <li><a href="lesartistes.html">Recherche</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="nom-artiste">
+        <h3>Elna Bernina</h3>
+      </div>
+      <div class="bio-complete">
+        <figure class="figure-oeuvre">
+          <img src="images/peinture-bernina.jpg" alt="peinture de montagnes">
+          <figcaption>La montagne</figcaption>
+        </figure>
+        <div class="texte-biographie-complete">
+          <p><span>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</span></p>
+          <select name='formal' onchange='javascript:handleSelect(this)'>
+                              <option disabled='disabled' default='true' disabled selected>Choisissez</option>
+                              <option value='artiste1'>Elna Bernina</option>
+                              <option value='artiste1'>Rat Musqué</option>
+                              <option value='artiste1'>Chèvre Seguin</option>
+                              <option value='artiste1'>Dolores Ipsum</option>
+                            </select>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <nav>
+        <ul class="bottom-ul">
+          <li><a href="index.html">Le musée et le site</a></li>
+          <li><a href="artiste1.html">Expositions & agenda</a></li>
+          <li><a href="#">Votre visite</a></li>
+          <li><a href="#">Les collections permanentes</a></li>
+          <li><a href="lesartistes.html">Recherche</a></li>
+        </ul>
+      </nav>
+      <div class="search-group">
+          <input type="search" id="site-search" name="q" aria-label="Search through site content" placeholder="Recherche ...">
+          <button type="button" id="search" class="btn btn-outline-light"><i class="fas fa-search fa-lg"></i></button>
+      </div>
+        <div class="address-group">
+          <div class="adresse">
+            <p class="footer-text">
+              Musée Alix Pelletier<br>
+              69, rue de la République<br>
+              38260 LA CÔTE SAINT-ANDRE
+            </p>
+            <p><i class="fab fa-facebook"></i> facebook</p>
+    		    <p><i class="fab fa-twitter"></i> twitter</p>
+          </div>
+          <div class="cgu">
+            <p class="footer-text">© alixpelletier date xx/xx/xxxx<?php echo date("Y"); ?></p>
+          </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

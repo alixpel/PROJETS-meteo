@@ -1,0 +1,33 @@
+.round
+{
+  border-radius: 100%;
+  background-color: red;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.mainContent
+{
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  background-color: pink;
+}
+.imageflottante
+{
+  float: left;
+  padding-right: 20px;
+}
+.flottant
+{
+  float: right;
+  padding-left: 20px;
+}
+
+header
+{
+  background-image: url("nana/goldfish.jpg");
+  background-attachment: fixed;
+}
